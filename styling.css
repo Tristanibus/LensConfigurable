@@ -1,0 +1,620 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+	
+body{
+	margin: 0;
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*The first strip in the configurable*/
+.model-div{
+	background-color: rgb(169, 184, 188);
+	position: relative;
+	height: 110px;
+	/*border-bottom: 30px solid; 
+	border-bottom-color: white;*/
+
+}
+
+.body-div{
+	position: relative;
+	float: right;
+	margin-top: -17px;
+
+}
+
+.close-button{
+	color: white;
+    left: 96%;
+    top: -8px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    cursor: default;
+    font-weight: lighter;
+    font-size: 200%;
+}
+
+.title-li{
+	height: 55px;
+	width:440px;
+	position: relative;
+	background-color: rgb(169, 184, 188);
+	border-top: 2px solid; 
+	border-top-color: rgb(230, 235, 239);
+
+}
+
+.model-name-box{
+	position: relative;
+	margin-left: 5%;
+	width: 0%;
+	top: 25%;
+
+}	
+
+.model-name{
+	color:rgb(255, 255, 255);
+	font-size: 200%;
+	float: left;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	/*top: 30px;
+	left: -35px;*/
+	
+}
+
+
+.model-color{
+	position:relative;
+	float: left;
+	color: rgb(68, 134, 153);
+	font-size: 120%;
+	font-family: 'Montserrat', sans-serif;
+	/*top:-5px;*/
+}
+
+.model-price{
+	color:white;
+	position:relative;
+	top: -5%;
+	font-size: 140%;
+	float:right;
+	margin-right:5%;
+	font-family: 'Montserrat', sans-serif;
+	/*left: 330px;
+	top: -90px;*/
+
+}
+
+.light-grey-strip{
+	position: relative;
+	height: 5px;
+	width: 440px;
+	color: white;
+	top: -50px;
+}
+
+
+.category-body{
+	position: relative;
+
+}
+
+
+.option-subLabel{
+	left: 38px;
+	font-size: 97%;
+	position: relative;
+	color: rgb(97, 129, 150);
+	width:300px;
+}
+
+.option-subLabel-small{
+	left:38px;
+	font-size: 85%;
+	position: relative;
+	color: rgb(97, 129, 150);
+	width:350px;
+}
+
+.option-price{
+	position: relative;
+	font-size: 95%;
+	float:right;
+	margin-right: 8px;
+	color: rgb(60, 61, 125)
+}
+
+.option-ul{
+	position: relative;
+	/*left:9%;*/
+	/*display: inline-block;*/
+}
+
+.option-label{
+	font-family: 'Montserrat', sans-serif;
+	position:relative;
+	color: black;
+	left: 8%;
+	color: rgb(60, 61, 125);
+	font-weight: bold;
+	font-size: 89%;
+    top: -1px;
+}
+.option-header{
+	position: relative;
+
+}
+
+
+
+
+.title-content{
+	position: relative;
+	top: 16px;
+	left: 15px;
+	font-size: 110%;
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	/*font-family: Gotham;*/
+	/*vertical-align: middle;*/
+}
+
+.option-div{
+	position: relative;
+	background-color: rgb(230, 235, 239);
+	margin-bottom: 12px;
+	margin-top: 10px;
+}
+
+
+
+
+.button-normal{
+	position: relative;
+	left:8px;
+	top:16px;
+	border-radius: 50%;
+	width: 13px;
+	height: 13px;
+	border: 0.5px solid rgb(60, 61, 125);
+	background-color: rgb(230, 235, 239);
+}
+
+
+.button-blue{
+	position: relative;
+	left:8px;
+	top:16px;
+	border-radius: 50%;
+	width: 12px;
+	height: 12px;
+	background: rgb(31, 31, 134);
+	border: 1px solid rgb(230, 235, 239);
+	box-shadow:  0px 0px 0px 1px black;
+}
+
+/*.button-container{
+	position: relative;
+	top: 16px;
+}*/
+	
+.buy-button{
+	position: relative;
+	background-color:rgb(234, 185, 186);
+	width:440px;
+	height:60px;
+	outline:none !important;
+	border-top: 2px solid;
+	border-right: none; 
+	border-top-color: rgb(230, 235, 239);
+	border-radius: 4px;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	
+}
+
+.buy-button:active{
+	box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+	background: rgb(191, 65, 35);
+	border: solid 1px rgb(134, 45, 24);
+	background-color: rgb(167, 57, 32)
+
+}
+
+.buy-button-text{
+	position: relative;
+	font-size: 120%;
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+}
+
+
+.image-span{
+	position: relative;
+	left: 42px;
+	top: -42px;
+	/*top:30px;*/
+}
+
+
+
+.error-message{
+	left: 8px;
+	position: relative;
+	color:red;
+	font-size: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+/*.table{
+	width: 440px;
+	position: relative;
+	background-color: rgb(230, 235, 239);
+	display: inline-block;
+	/*left:73%;
+	/*top:30px;*/
+	/*cursor: pointer;
+	user-select: none;*/
+
+.popup-table{
+  width: 440px;
+  position: relative;
+  left: 30%;
+  display: inline-block;
+  background-color: rgb(230, 235, 239);
+  z-index: 1;
+  margin-bottom: 50px;
+}	
+
+
+.page-mask{
+	position: fixed;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	top: 0;
+  	background-color: rgba(0,0,0,0.6);
+  	overflow-y:scroll;
+  	overflow-x: hidden;
+}
+
+.prescription-note{
+	position: relative;
+	left: 7%;
+    width: 395px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.photo-input-box{
+	position: relative;
+	width: 300px;
+	height: 100px;
+	left: 9%;
+    top: 10px;
+	background-color: rgb(25, 87, 118);
+}
+
+.photo-input-text{
+	position: relative;
+	color: white;
+	left: 11%;
+    top: 20%;
+}
+
+.visible-input-button{
+	position: absolute;
+	background-color: white;
+	display: inline;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	border: none;
+	font-size: 90%;
+	border-radius: 25px;
+	width: 50%;
+	left: 0px;
+	top:7px;
+	cursor: default;
+
+}
+
+.hidden-input{
+	position: absolute;
+	z-index: 2;
+	opacity: 0;
+	width:50%;
+}
+
+.input-camera-line{
+	position: relative;
+	left: 10%;
+	margin-top: 8%; 
+}
+
+.camera-icon{
+	position: absolute;
+	color: white;
+	left: 54%;
+    top: -30%;
+
+
+}
+
+.input-wrapper{
+	position: relative;
+
+}
+
+
+
+.prescription-table{
+	position: relative;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.labels{
+	position: relative;
+	left: 15px;
+	top:-20px;
+	margin-left: 14px;
+	margin-bottom: 15px;
+}
+
+
+.label-initials-box{
+	position: relative;
+}
+
+
+.fill-in-line{
+	position: relative;
+	display: flex;
+}
+
+
+.prescription-label{
+	position: relative;
+	color: rgb(25, 87, 118);
+	font-size: 120%;
+    font-family: 'Montserrat', sans-serif;
+   	display: table-cell;
+
+}
+
+.prescription-initials{
+	position: relative;
+	color: rgb(25, 87, 118);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Apply padding to td elements that are direct children of the tr elements with class prescription-row. */
+tr.prescription-row>td{
+	padding-bottom: 0.5em;
+	padding-left: 18px;	
+}
+
+
+td.label-initials-box{
+	/*padding-left: 20px;*/
+	padding-top: 10px;
+	font-size: 90%;
+	left: 12px;
+    top: -5px;
+}
+
+/*td.prescription-input-box{
+	padding-right: 35px;
+}*/
+
+tr.header-row>th{
+	padding-top: 15px;
+	padding-right: 20px;
+}
+
+tr.prescription-row>td:nth-child(3){
+	padding-right: 35px; 
+}
+
+.header-row-title{
+	color: rgb(25, 87, 118);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	padding-left: 22px;
+}
+
+.prescription-table td input{
+    width: 75px;
+    height: 23px;
+    border-radius: 16px;
+    border: 1px solid darkgrey;
+    padding-right: 0px;
+   
+}
+
+input[type=number]::-webkit-inner-spin-button{
+  opacity: 1;
+  height:25px;
+  width:20px;
+  top: 20px;
+}
+.prescription-link{
+	color:red;
+}
+
+td.prescription-link-td{
+	position: absolute;
+	left: 82%;
+    width: 15%;
+    top: 75%;
+}
+
+
+
+.prescription-final-note{
+	position: relative;
+	color:red;
+    width: 80%;
+    margin-left: 7%;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info-circle{
+	position: relative;
+	color: #776d6d;
+    margin-left: 3px;
+}
+
+.label-info-space{
+	position: relative;
+}
+
+.info-circle-wrapper{
+	position: relative;
+	display: table-cell;
+
+}
+
+.distancia-pupilar-label{
+	width: 20px;
+}
+
+li{
+	list-style-type: none;
+}
+
+textarea {
+	resize: none;
+}
+
+.info-circle-window{
+	position: absolute;
+	overflow:hidden;
+	background-color: white;
+	z-index: 1;
+	left: 80%;
+	top: 0%;
+
+}
+
+.info-circle-window-text{
+	position: relative;
+	margin: 8px;
+	width: 320px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.invalid-esfera-error{
+	position: relative;
+	font-size: 90%;
+	width: 300px;
+	color: red;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.invalid-error-row{
+	position: absolute;
+	top: 25%;
+    left: 7%;
+}
+
+/*td.invalid-error-td{
+	position: relative;
+	width: 100px;
+}*/
+
+table input{
+	outline: none;
+}
+/*input[type=number]::-webkit-inner-spin-button {
+ 
+}*/
+
+/*textarea {
+	resize: none;
+}
+
+li {
+
+	
+}*/
+
+
+/*.table .show {
+	visibility: visible;
+	 -webkit-animation: fadeIn 1s;
+	animation: fadeIn 1s;
+
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+
+@keyframes fadeIn{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}*/
+
+/*span{
+	top: 20px;
+	vertical-align: middle;
+}*/
+
+
+/*@font-face {
+  font-family: Gotham; 
+  src: url(fonts/Gotham-Medium.ttf);
+}*/
+
+
+
+
+/*GOTHAM FONT:  */
+
+
+/*@font-face {
+    font-family: 'gothambook';
+    src: url(' {{ 'gothambook.eot' | asset_url }} ');
+    src: url(' {{ 'gothambook.eot?#iefix' | asset_url }} ') format('embedded-opentype'),
+    url(' {{ 'gothambook.woff2' | asset_url }} ') format('woff2'),
+    url(' {{ 'gothambook.woff' | asset_url }} ') format('woff'),
+    url(' {{ 'gothambook.ttf' | asset_url }} ') format('truetype'),
+    url(' {{ 'gothambook.svg#gothambook' | asset_url }} ') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+
+
+
+
+/*@font-face {
+  font-family: 'Gotham';
+  src:  local('Gotham Condensed') local('Gotham-Condensed')
+   font-weight: 700;
+   font-style: normal;
+ }*/
+
+/*@font-face {
+  font-family: 'Gotham';*/
+  /*src: url('fonts/Gotham-Medium.woff') format('woff');*//* Modern Browsers */ 
+  /*font-weight: 400;
+  font-style: normal;
+ }*/
+
+/*@font-face {
+  font-family: 'Gotham';*/
+  /* src: url('fonts/Gotham-Thin.woff') format('woff');*/ /* Modern Browsers */
+/*   font-weight: 300;
+   font-style: normal;
+ }
+*/
+
+
